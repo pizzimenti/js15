@@ -11,20 +11,18 @@
       "question": "What time is it?"
     }
   ],
-  "answers": [{
-    "answers": [
-      {
-        "id": 1,
-        "qID": 1,
-        "author": "Craig",
-        "answer": "Yes, it will!"
-      },
-      {
-        "id": 2,
-        "qID": 1,
-        "author": "Will",
-        "answer": "No, it won't!"
-      }
-    ]
-  }]
+  "answers": [
+    {
+    "id": 1,
+    "qID": 1,
+    "author": "Craig",
+    "answer": "Yes, it will!"
+    },
+    {
+    "id": 2,
+    "qID": 1,
+    "author": "Will",
+    "answer": "No, it won't!"
+    }
+  ]
 }
