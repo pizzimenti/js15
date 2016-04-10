@@ -3,7 +3,11 @@
     {
       "id": 1,
       "author": "Brad",
-      "question": "Will this message appear?"
+      "question": "Will this message appear?",
+      "answers": {
+        "0": true,
+        "2": true
+      }
     },
     {
       "id": 2,

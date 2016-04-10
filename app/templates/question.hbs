@@ -1,0 +1,11 @@
+<h2>{{model.question}}</h2>
+<h4>Author: {{model.author}}</h4>
+
+<h3>Answers:</h3>
+
+<ul>
+  {{#each model.answers as |answer|}}
+    {{answer-tile answer=answer}}
+    {{log answer-tile}}
+  {{/each}}
+</ul>
