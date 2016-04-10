@@ -1,5 +1,16 @@
-<h2 id="title">Welcome to Ember-based Message Boards</h2>
-<ul>
+<div class="jumbotron text-center">
+  <h2 id="title">Welcome to Ember-based Message Boards</h2>
+</div>
+
+<ul id="navbar">
+  <li>{{#link-to 'index'}}Home{{/link-to}}</li>
   <li>{{#link-to 'about'}}About{{/link-to}}</li>
 </ul>
+
+<div class=container>
+
 {{outlet}}
+
+<hr>
+<h5>Copyright 2016 &copy; Bradley Pizzimenti</h5>
+</div>
