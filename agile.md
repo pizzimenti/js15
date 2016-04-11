@@ -6,8 +6,8 @@ Include a header and/or navbar that appears on all pages containing the name of 
 List all questions on the homepage, with only the question and the name of the author showing.
 Users should be able to click on a question to view additional information.
 Allow users to add questions.
+Allow users to edit questions and delete them.
 
 # Doing
 
-Allow users to edit questions.
 Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.

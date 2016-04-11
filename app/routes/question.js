@@ -5,6 +5,10 @@ export default Ember.Route.extend({
     return this.store.findRecord('question', params.question_id);
   },
   actions: {
+    destroyQuestion(question) {
+      question.destroyRecord();
+      this.transitionTo('index');
+    },
     update(question, params) {
       Object.keys(params).forEach(function(key) {
         if(params[key]!==undefined) {
