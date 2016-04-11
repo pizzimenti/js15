@@ -1,7 +1,12 @@
 <h2>{{model.question}}</h2>
 <h4>Author: {{model.author}}</h4>
 
+{{update-question question=model update="update"}}
+{{delete-question question=model destroyQuestion="destroyQuestion"}}
+
 <h3>Answers:</h3>
+
+{{add-answer saveAnswer="saveAnswer" question=model}}
 
 <ul>
   {{#each model.answers as |answer|}}
@@ -9,6 +14,3 @@
     {{log answer-tile}}
   {{/each}}
 </ul>
-
-{{update-question question=model update="update"}}
-{{delete-question question=model destroyQuestion="destroyQuestion"}}

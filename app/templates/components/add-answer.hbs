@@ -1,0 +1,12 @@
+{{#if addNewAnswer}}
+  <h2>New Answer</h2>
+    <form>
+      <label for="answer">Answer</label>
+      {{input value=answer id="answer"}}
+      <label for="author">Author</label>
+      {{input value=author id="author"}}
+      <button {{action 'saveAnswer'}}>Save</button>
+    </form>
+  {{else}}
+  <button {{action 'answerFormShow'}}>New Answer</button>
+  {{/if}}
