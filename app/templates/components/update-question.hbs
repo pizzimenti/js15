@@ -1,0 +1,12 @@
+{{#if updateQuestionForm}}
+  <h2>Update {{question.author}}'s Question</h2>
+    <form>
+      <label for="question">Question</label>
+      {{input value=question.question id="question"}}
+      <label for="author">Author</label>
+      {{input value=question.author id="author"}}
+      <button {{action 'updateQuestion'}}>Save Changes</button>
+    </form>
+  {{else}}
+  <button {{action 'updateQuestionForm'}}>Update Question</button>
+  {{/if}}
