@@ -1,11 +1,11 @@
 # Ember-msg-board
 
-This is a project for creation of a basic Ember 2 app. It implements CRUD methodologies for a question and answer site.
+This is a project for creation of a basic Ember 2 app. It implements CRUD methodologies for a question and answer site. It also includes an ember service for storing favorited answers, a computed property to display number of answers for a question, and a helper for displaying a glyph icon next to questions with at least three answers.
 
 ## Additional Technologies
 
 * Firebase
-* Bootstrap-Ember 
+* Bootstrap-Ember
 
 ## Prerequisites
 
