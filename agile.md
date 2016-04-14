@@ -8,8 +8,8 @@ Users should be able to click on a question to view additional information.
 Allow users to add questions.
 Allow users to edit questions and delete them.
 Allow users to add answers to a question. Answers should be added and viewed on the same page as the question they respond to.
+At least one custom helper is being used to format data.
 
 # Doing
 The project contains at least one functioning computed property.
 A service has been implemented successfully.
-At least one custom helper is being used to format data.
